@@ -5,11 +5,11 @@ The first line contains a single integer N. The next line contains a String S of
 **Output Format :**  
 Print the required answer on a single line  
 **Constraints :**  
-1<=N<=100,000
-**Explanation :**
-Sample Input:
-5
-aaaaa
-Sample output :
-0
+1<=N<=100,000  
+**Explanation :**  
+Sample Input:  
+5  
+aaaaa  
+Sample output :  
+0  
 We can delete all occurences of the letter "a" to get a resultant string of length 0.
