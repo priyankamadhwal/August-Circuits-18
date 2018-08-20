@@ -11,7 +11,7 @@ int main()
     
     cin>>T;
     
-    for (int test=1; test<=T; test++)
+    for (long long test=1; test<=T; test++)
     {
         cin>>D>>A>>M>>B>>X;
         
