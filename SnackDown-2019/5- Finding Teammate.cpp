@@ -35,7 +35,7 @@ int main()
             flag=false;
             if (pre_val>0 && pre_val%2!=0)
             {
-                flag=true;
+                flag=true; 
                 no_of_ways=no_of_ways*pre_val%1000000007;
                 pre_val--;
             }
