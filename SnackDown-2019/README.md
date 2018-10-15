@@ -61,3 +61,21 @@ For each test case, print a single line containing the string "YES" if it is pos
 **Constraints**  
 - 1≤T≤200
 - 1≤N≤200
+
+### Q5- Finding Teammate (TEAMMATE)  
+Snackdown 2019 is coming! Since Snackdown is a contest of teams with up to two members, everyone is looking for a teammate. There are N contestants (numbered 1 through N) who want to participate in Snackdown; let's denote the skill level of the i-th contestant by Si. These people want to pair up in N/2 teams; each team should consist of two people.  
+Clearly everyone wishes for their teammate to be as skilled as possible, so everyone wants to maximize their teammate's skill level. We call a pairing (an unordered N/2-tuple of teams) valid if there are no two teams consisting of people (A,B) and (C,D) such that SD>SB and SA>SC — in that case, A and D would both prefer to be on the same team rather than with their current teammates.  
+Find the number of valid pairings. Since this number can be large, compute it modulo 1,000,000,007.  
+**Input:**  
+- The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.  
+- The first line of each test case contains a single integer N.  
+- The second line contains N space-separated integers S1,S2,…,SN.  
+      
+**Output:**
+For each test case, print a single line containing one integer — the number of valid pairings modulo 1,000,000,007.  
+**Constraints**  
+- 1≤T≤1,000  
+- 2≤N≤105  
+- N is even  
+- the sum of N for all test cases does not exceed 106  
+- 1≤Si≤106 for each valid i  
