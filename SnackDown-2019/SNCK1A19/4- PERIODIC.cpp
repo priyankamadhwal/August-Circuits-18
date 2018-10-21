@@ -18,7 +18,7 @@ int main()
         for (long long i=0; i<N; i++)
             cin>>A[i];
         long long Kmax = *max_element(A,A+N);
-        bool imp=false;
+        bool imp=false; 
         res_K=-1;
         prev=-1;
         for (long long i=0; i<N; i++)
