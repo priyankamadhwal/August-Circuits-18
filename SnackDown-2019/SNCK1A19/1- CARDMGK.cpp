@@ -37,7 +37,7 @@ int main()
             if (A[i]>A[0] || A[i]>A[i-1])
             {   
                 flag=false;
-            }   
+            }    
             j++;
             while(j<N && flag)
             {
